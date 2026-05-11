@@ -83,6 +83,7 @@ outline_size = 3
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="SystemFont" id="SystemFont_yg014"]
+subpixel_positioning = 0
 
 [node name="Node2D" type="Node2D" unique_id=1097605121]
 script = ExtResource("1_pt1ru")
@@ -174,7 +175,6 @@ text = "AS AVENTURAS
 label_settings = SubResource("LabelSettings_jllm8")
 
 [node name="texto3" type="Label" parent="CanvasLayer/Sprite2D" unique_id=1743901000]
-visible = false
 texture_filter = 1
 offset_left = -35.447952
 offset_top = -23.337944
@@ -243,6 +243,7 @@ texture = ExtResource("5_5ofep")
 expand_mode = 1
 
 [node name="MolduraVila" type="TextureRect" parent="CanvasLayer/Sprite2D/VilaNoLivro" unique_id=1097363152]
+visible = false
 z_index = 1
 layout_mode = 0
 offset_left = -4.067795
@@ -253,6 +254,7 @@ texture = ExtResource("6_ihefr")
 expand_mode = 1
 
 [node name="VilaNoLivro2" type="TextureRect" parent="CanvasLayer/Sprite2D" unique_id=1694151951]
+visible = false
 offset_left = -31.961275
 offset_top = 10.924137
 offset_right = 6.9733486

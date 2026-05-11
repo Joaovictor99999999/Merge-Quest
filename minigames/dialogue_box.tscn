@@ -3,13 +3,14 @@
 [ext_resource type="Script" uid="uid://eorslohtqdxr" path="res://dialogue_box.gd" id="1_nhbm5"]
 [ext_resource type="Texture2D" uid="uid://cujsp2ogygr6i" path="res://character/assets/vovo.png" id="2_ms2fb"]
 [ext_resource type="Texture2D" uid="uid://5is5xhgcp41n" path="res://character/assets/New Piskel (4).png" id="2_nhbm5"]
-[ext_resource type="FontFile" uid="uid://daxci5jepdfn7" path="res://outros/ThaleahFat.ttf" id="4_ms2fb"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ms2fb"]
 texture = ExtResource("2_nhbm5")
 
+[sub_resource type="SystemFont" id="SystemFont_jggvb"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_ms2fb"]
-font = ExtResource("4_ms2fb")
+font = SubResource("SystemFont_jggvb")
 font_size = 14
 font_color = Color(0.44022286, 0.43013388, 0.4234118, 1)
 outline_size = 2

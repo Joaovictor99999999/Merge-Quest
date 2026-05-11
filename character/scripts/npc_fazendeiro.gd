@@ -84,7 +84,7 @@ func exibir_fala_bloqueio():
 	instancia.connect("dialogo_finalizado", _on_bloqueio_finalizado)
 	
 	instancia.iniciar_dialogo(
-		["Ainda não é hora disso, Murge!", "Siga a seta para saber o que fazer primeiro."],
+		["Ainda não é hora disso, Merge!", "Siga a seta para saber o que fazer primeiro."],
 		preload("res://minigames/game1 (2) (1) (3).png")
 	)
 

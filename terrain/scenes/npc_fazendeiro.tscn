@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://sn2t8s2wmxg8" path="res://character/assets/Idle_Down-Sheet (6) (2).png" id="1_2g5jt"]
 [ext_resource type="Script" uid="uid://l00qmuieqcf0" path="res://character/scripts/npc_fazendeiro.gd" id="1_w4m25"]
 [ext_resource type="Texture2D" uid="uid://5is5xhgcp41n" path="res://character/assets/New Piskel (4).png" id="3_t03rf"]
-[ext_resource type="FontFile" uid="uid://daxci5jepdfn7" path="res://outros/ThaleahFat.ttf" id="4_t03rf"]
 
 [sub_resource type="Animation" id="Animation_t03rf"]
 length = 0.001
@@ -49,8 +48,13 @@ size = Vector2(101, 90)
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_w4m25"]
 texture = ExtResource("3_t03rf")
 
+[sub_resource type="SystemFont" id="SystemFont_t03rf"]
+subpixel_positioning = 0
+
+[sub_resource type="SystemFont" id="SystemFont_w4m25"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_w4m25"]
-font = ExtResource("4_t03rf")
+font = SubResource("SystemFont_w4m25")
 font_size = 14
 font_color = Color(0.5834499, 0.5834499, 0.5834499, 1)
 outline_size = 2
@@ -58,8 +62,10 @@ outline_color = Color(0, 0, 0, 1)
 shadow_size = 0
 shadow_color = Color(0, 0, 0, 1)
 
+[sub_resource type="SystemFont" id="SystemFont_ndwuc"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_n4b4k"]
-font = ExtResource("4_t03rf")
+font = SubResource("SystemFont_ndwuc")
 font_size = 8
 shadow_size = 2
 shadow_color = Color(0, 0, 0, 1)
@@ -107,6 +113,7 @@ theme_override_constants/margin_bottom = 18
 texture_filter = 1
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("SystemFont_t03rf")
 theme_override_font_sizes/font_size = 12
 text = "ola"
 label_settings = SubResource("LabelSettings_w4m25")

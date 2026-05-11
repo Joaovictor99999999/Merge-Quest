@@ -69,16 +69,14 @@ func iniciar_cutscene():
 	dialogo.iniciar_dialogo(
 		["Olhe para esta horta...",
 		"Cada fileira de terra funciona como um VETOR (Array).",
-		"Um VETOR é uma lista que guarda várias informações em uma única variável.",
-		"Essas variaveis sao acessadas atraves de algo que chamamos de indice.",
-		"Esse indice é a posiçao de cada planta no vetor.",
+		"Um VETOR é uma lista que guarda várias informações de um mesmo tipo em uma única variável.",
+		"Essas variáveis são acessadas através de algo que chamamos de índice.",
+		"Esse índice é a posição de cada planta no vetor.",
 		"O primeiro lugar da lista é sempre o ÍNDICE 0!",
-		"Como temos várias fileiras, criamos uma MATRIZ.",
-		"Uma MATRIZ é basicamente uma lista de listas, como um mapa de coordenadas.",
 		"Como jogar o jogo:.",
-		"Use as setas para definir o endereço exato [Indice][Coluna]...",
+		"Use as setas para definir o endereço exato [Índice][Coluna]...",
 		"Veja a ordem que se deve seguir de legumes",
-		"Clique no legume da vez, colha ele e depois plante",
+		"Clique no legume da vez, colha-o e plante o legume correto",
 		"Boa sorte"],
 		preload("res://character/assets/fazendeiro.png")
 	)
