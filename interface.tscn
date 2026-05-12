@@ -67,15 +67,23 @@ _data = {
 &"passar_pagina": SubResource("Animation_0noqu")
 }
 
+[sub_resource type="SystemFont" id="SystemFont_x8lwq"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_0noqu"]
 font_color = Color(0, 0, 0, 1)
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_2m66s"]
+subpixel_positioning = 0
 
 [sub_resource type="LabelSettings" id="LabelSettings_jllm8"]
 font = ExtResource("4_pxv5b")
 font_color = Color(0.8192906, 0.53270257, 0.08230568, 1)
 outline_size = 3
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_yg014"]
+subpixel_positioning = 0
 
 [node name="Node2D" type="Node2D" unique_id=1097605121]
 script = ExtResource("1_pt1ru")
@@ -119,6 +127,7 @@ theme_override_constants/shadow_offset_x = 4
 theme_override_constants/shadow_offset_y = 3
 theme_override_constants/outline_size = 1
 theme_override_constants/shadow_outline_size = 7
+theme_override_fonts/font = SubResource("SystemFont_x8lwq")
 text = "A Jornada de Merge
 
 Para reconstruir a ponte e salvar a vila, ele deve buscar a sabedoria perdida com os moradores da vila.
@@ -142,6 +151,7 @@ theme_override_constants/shadow_offset_x = 4
 theme_override_constants/shadow_offset_y = 3
 theme_override_constants/outline_size = 1
 theme_override_constants/shadow_outline_size = 7
+theme_override_fonts/font = SubResource("SystemFont_2m66s")
 text = "Merge – O Fazendeiro
 
 Na pacata Vila das Variáveis, a vida seguia em ordem até a Grande Tempestade de Bugs.
@@ -165,7 +175,6 @@ text = "AS AVENTURAS
 label_settings = SubResource("LabelSettings_jllm8")
 
 [node name="texto3" type="Label" parent="CanvasLayer/Sprite2D" unique_id=1743901000]
-visible = false
 texture_filter = 1
 offset_left = -35.447952
 offset_top = -23.337944
@@ -176,6 +185,7 @@ theme_override_constants/shadow_offset_x = 4
 theme_override_constants/shadow_offset_y = 3
 theme_override_constants/outline_size = 1
 theme_override_constants/shadow_outline_size = 7
+theme_override_fonts/font = SubResource("SystemFont_yg014")
 text = "Página de Tutorial (Controles)
 Como Guiar Merge:
 
@@ -233,6 +243,7 @@ texture = ExtResource("5_5ofep")
 expand_mode = 1
 
 [node name="MolduraVila" type="TextureRect" parent="CanvasLayer/Sprite2D/VilaNoLivro" unique_id=1097363152]
+visible = false
 z_index = 1
 layout_mode = 0
 offset_left = -4.067795
@@ -243,6 +254,7 @@ texture = ExtResource("6_ihefr")
 expand_mode = 1
 
 [node name="VilaNoLivro2" type="TextureRect" parent="CanvasLayer/Sprite2D" unique_id=1694151951]
+visible = false
 offset_left = -31.961275
 offset_top = 10.924137
 offset_right = 6.9733486

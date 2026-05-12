@@ -1325,12 +1325,12 @@ label_settings = SubResource("LabelSettings_jp1er")
 
 [node name="Label4" type="Label" parent="UI/PainelComando" unique_id=415391378]
 layout_mode = 0
-offset_left = 8.0
-offset_top = 77.0
-offset_right = 110.0
-offset_bottom = 100.0
+offset_left = 10.0
+offset_top = 74.0
+offset_right = 115.0
+offset_bottom = 97.0
 scale = Vector2(0.6, 0.6)
-text = " Botao de acao"
+text = "BOTão DE AçãO"
 label_settings = SubResource("LabelSettings_jp1er")
 
 [node name="Label7" type="Label" parent="UI/PainelComando" unique_id=1350286957]

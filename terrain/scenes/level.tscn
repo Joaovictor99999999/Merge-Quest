@@ -20,6 +20,12 @@
 [ext_resource type="Texture2D" uid="uid://btksviosdkuek" path="res://minigames/Booksheet (1) (1).png" id="18_31mqb"]
 [ext_resource type="PackedScene" uid="uid://bc8hqxva5ax7h" path="res://interface.tscn" id="18_be30i"]
 
+[sub_resource type="FontVariation" id="FontVariation_31mqb"]
+
+[sub_resource type="SystemFont" id="SystemFont_31mqb"]
+
+[sub_resource type="SystemFont" id="SystemFont_ifitp"]
+
 [sub_resource type="LabelSettings" id="LabelSettings_0noqu"]
 font_color = Color(0, 0, 0, 1)
 outline_color = Color(0, 0, 0, 1)
@@ -27,6 +33,8 @@ outline_color = Color(0, 0, 0, 1)
 [sub_resource type="LabelSettings" id="LabelSettings_31mqb"]
 outline_size = 2
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_bo385"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ifitp"]
 outline_size = 2
@@ -210,7 +218,6 @@ visible = true
 
 [node name="Sprite2D" parent="ysort/Character/Camera2D/interface/CanvasLayer" index="1" unique_id=940445124]
 process_mode = 3
-frame = 0
 
 [node name="AnimationPlayer" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="0" unique_id=1384691637]
 process_mode = 3
@@ -222,6 +229,8 @@ offset_top = -21.35173
 offset_right = 263.24457
 offset_bottom = 361.64825
 scale = Vector2(0.2, 0.2)
+theme_override_fonts/font = SubResource("FontVariation_31mqb")
+theme_override_font_sizes/font_size = 13
 text = "A Jornada de Merge
 
 Para reconstruir a ponte e salvar a vila, ele deve buscar a sabedoria perdida com os moradores da vila.
@@ -234,6 +243,7 @@ process_mode = 3
 offset_left = -36.02907
 offset_right = 205.13329
 scale = Vector2(0.2, 0.2)
+theme_override_font_sizes/font_size = 15
 text = "Merge – O Fazendeiro
 
 Na pacata Vila das Variáveis, a vida seguia em ordem até a Grande Tempestade de Bugs.
@@ -299,8 +309,12 @@ offset_top = 6.4551706
 offset_bottom = 25.820686
 
 [node name="MolduraVila" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D/VilaNoLivro" index="0" unique_id=1097363152]
+visible = true
 offset_top = -7.944831
 offset_bottom = 26.317245
+
+[node name="VilaNoLivro2" parent="ysort/Character/Camera2D/interface/CanvasLayer/Sprite2D" index="9" unique_id=1694151951]
+visible = true
 
 [node name="Começar" parent="ysort/Character/Camera2D/interface/CanvasLayer" index="2" unique_id=1847327137]
 process_mode = 3

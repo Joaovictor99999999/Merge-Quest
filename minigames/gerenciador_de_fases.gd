@@ -22,9 +22,9 @@ func _ready():
 func chamar_introducao():
 	var frases = [
 		"Merge, montar um plano para reconstruir uma ponte é algo muito dificil.",
-		"Mas um problema dificil nada mais é que uma soma de pequenos problemas.",
-		"Entao vamos pegar as tres etapas de uma ponte.",
-		"Que é a fundaçao, estrutura e finzalizaçao e separar em problemas menores.",
+		"Mas um problema difícil nada mais é do que uma soma de pequenos problemas.",
+		"Entao vamos pegar as três etapas de uma ponte.",
+		"Que são: fundaçao, estrutura e finalização e separar em problemas menores.",
 		"Como jogar o jogo:",
 		"Arraste as peças para os espaços vazios na ordem correta da construção.",
 		"Cada etapa concluída nos deixará mais perto de atravessar o rio!",
